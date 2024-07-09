@@ -11,5 +11,5 @@ export class ExpenseDto {
 
   @IsNumber()
   @IsNotEmpty()
-  amount: string;
+  amount: number;
 }

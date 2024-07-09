@@ -4,9 +4,9 @@ import { ExpenseDto } from './dtos/expense.dto';
 @Injectable()
 export class ExpensesService {
   private readonly expenses = [
-    { id: 1, title: 'Book', amount: '$10' },
-    { id: 2, title: 'Pen', amount: '$2' },
-    { id: 3, title: 'Notebook', amount: '$5' },
+    { id: 1, title: 'Book', amount: 10 },
+    { id: 2, title: 'Pen', amount: 2 },
+    { id: 3, title: 'Notebook', amount: 5 },
   ];
 
   createExpense(expense: ExpenseDto) {
